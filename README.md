@@ -49,9 +49,41 @@ The interface supports Kazakh and Russian. I also customized parts of Moodle's d
 
 The website runs on an Ubuntu VPS using Nginx, PHP-FPM and MariaDB.
 
+
 ## Screenshots
 
-I'll add screenshots of the homepage, dashboard and course interface here.
+### Homepage
+
+**Kazakh version**
+
+![Homepage - Kazakh](Site%20screenshots/home1.png)
+
+![Mission - Kazakh](Site%20screenshots/home2.png)
+
+![Learning section - Kazakh](Site%20screenshots/home3.png)
+
+![Footer - Kazakh](Site%20screenshots/home4.png)
+
+**Russian version**
+
+![Homepage - Russian](Site%20screenshots/homerus1.png)
+
+![Mission - Russian](Site%20screenshots/homerus2.png)
+
+![Learning section - Russian](Site%20screenshots/homerus3.png)
+
+![Footer - Russian](Site%20screenshots/homerus4.png)
+
+### Student Dashboard
+
+**Kazakh version**
+
+![Dashboard - Kazakh](Site%20screenshots/dash.png)
+
+**Russian version**
+
+![Dashboard - Russian](Site%20screenshots/dashrus.png)
+
 
 ## Current status
 
