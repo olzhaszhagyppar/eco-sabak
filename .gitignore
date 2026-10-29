@@ -1,0 +1,42 @@
+
+# Moodle configuration
+config.php
+**/config.php
+
+# Private Moodle data
+moodledata/
+**/moodledata/
+
+# Database backups
+*.sql
+*.sql.gz
+*.dump
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Server and application logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Local development
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives and backups
+*.zip
+*.tar
+*.tar.gz
+*.7z
