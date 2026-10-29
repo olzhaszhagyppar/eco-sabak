@@ -1,63 +1,70 @@
-# 🌱 Eco-sabak
+# Eco-sabak
 
-### Bilingual Environmental Education Platform for Kazakhstan
+A bilingual environmental education website for students in Kazakhstan, built on Moodle.
 
-**Eco-sabak** is an online environmental education platform built using Moodle LMS. It provides educational resources designed to improve environmental awareness and promote sustainable habits among students in Kazakhstan.
+**Website:** https://eco-sabak.kz
 
-🌐 **Live website:** https://eco-sabak.kz
+## About the project
 
-## ✨ Features
+Eco-sabak is a project I've been working on to make environmental learning materials easier to access in one place.
 
-- 🇰🇿 Kazakh and 🇷🇺 Russian language support
-- 20 environmental lesson sections
-- Student registration and course self-enrolment
-- Personal learning dashboard
-- Educational presentations and teaching resources
-- Responsive web interface
-- Secure HTTPS connection
+The idea is pretty simple: students can create an account, join a course and access lessons about environmental issues, especially those relevant to Kazakhstan.
 
-## 🛠 Technology Stack
+The platform currently has 20 lesson sections covering topics like water conservation, plastic pollution, recycling, climate change and sustainable living. Some lessons are still being prepared.
 
-| Component | Technology |
+I used Moodle as the foundation instead of building an entire learning management system from scratch. Most of my work has been around setting up the platform, customizing its interface, organizing the course content and getting everything running on a VPS.
+
+## What I've worked on
+
+- Set up and configured Moodle 5.1.5
+- Customized the homepage and student dashboard
+- Added Kazakh and Russian language support to custom interface elements
+- Organized 20 environmental lesson sections
+- Configured user registration and self-enrolment
+- Migrated the website from a local XAMPP environment to a Linux VPS
+- Configured Nginx, PHP-FPM and MariaDB
+- Set up HTTPS using Let's Encrypt
+- Configured scheduled Moodle tasks and server backups
+
+## Tech stack
+
+| Technology | Usage |
 |---|---|
-| Learning management system | Moodle 5.1.5 |
-| Operating system | Ubuntu 24.04 LTS |
-| Web server | Nginx |
-| Backend | PHP 8.3 |
-| Database | MariaDB 10.11 |
-| Hosting | PS.kz Cloud VPS |
-| SSL | Let's Encrypt |
-| Version control | Git & GitHub |
+| Moodle 5.1.5 | Learning management system |
+| PHP 8.3 | Backend |
+| MariaDB 10.11 | Database |
+| HTML / CSS | Interface customization |
+| Nginx | Web server |
+| Ubuntu 24.04 | Server operating system |
+| PS.kz | VPS hosting |
+| Git / GitHub | Version control and project documentation |
 
-## 📚 Educational Content
+## How it works
 
-The platform covers water conservation, recycling, plastic pollution, climate change, forests, sustainable lifestyles, and environmental issues in Kazakhstan.
+Users can register on the website and enrol in the environmental education course.
 
-## 🏗 Architecture
+The course is divided into lessons, with presentations and teaching materials available for students and teachers.
 
-Visitors → HTTPS / Nginx → PHP-FPM → Moodle → MariaDB
+The interface supports Kazakh and Russian. I also customized parts of Moodle's default design to make the website fit the Eco-sabak project.
 
-Moodle stores uploaded educational materials separately in a protected data directory.
+The website runs on an Ubuntu VPS using Nginx, PHP-FPM and MariaDB.
 
-## 🎯 Project Goals
+## Screenshots
 
-- Make environmental education more accessible
-- Support learning in Kazakh and Russian
-- Promote responsible resource consumption
-- Encourage sustainable everyday habits
+I'll add screenshots of the homepage, dashboard and course interface here.
 
-## 📸 Screenshots
+## Current status
 
-Screenshots of the homepage, student dashboard, and course pages will be added here.
+The website is deployed and accessible at https://eco-sabak.kz.
 
-## 🔐 Security
+The main functionality is working, including registration, course enrolment and access to uploaded learning materials.
 
-This repository is intended for project documentation and original customizations. Production credentials, student records, database dumps, and Moodle private data are not published.
+I'm still working on improving the interface, adding the remaining lesson materials and making the platform easier to use.
 
-## 📄 Attribution
+## Repository
 
-Built with Moodle LMS, an open-source learning management system. Moodle and its trademarks belong to their respective owners.
+This repository is for documenting the project and keeping track of my own customizations.
 
-## 🔗 Website
+Eco-sabak uses Moodle, which is an open-source LMS. I didn't develop Moodle itself.
 
-https://eco-sabak.kz
+Production configuration files, passwords, database backups and private user data are not included.
